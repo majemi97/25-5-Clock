@@ -1,0 +1,52 @@
+#button-box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  #well1 {
+    margin-right: 25px;
+    #break-increment,
+    #break-decrement {
+      display: inline;
+    }
+  }
+  #well2 {
+    margin-left: 25px;
+    #session-increment,
+    #session-decrement {
+      display: inline;
+    }
+  }
+}
+
+#timer {
+  border: 2px solid #13353a;
+  border-radius: 35px;
+  margin: 15px auto 10px auto;
+  width: 276px;
+  background: white;
+  color: #000;
+}
+
+#button-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #start_stop {
+    display: inline;
+    margin-left: 470px;
+    // position: absolute;
+    // left: 25px;
+    margin-right: 60px;
+    max-width: 50px;
+  }
+
+  #reset {
+    display: inline;
+    margin-right: 470px;
+    margin-left: 60px;
+    // position: relative;
+    // left: 25px;
+    max-width: 50px;
+  }
+}
